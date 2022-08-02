@@ -1,2 +1,2 @@
 # text-spammer-tkinter
-Text Spammer using TKinter
+Text Spammer using CustomTkinter
