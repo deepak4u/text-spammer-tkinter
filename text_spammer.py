@@ -7,7 +7,7 @@ import time
 customtkinter.set_appearance_mode("dark")  # Modes: system (default), light, dark
 customtkinter.set_default_color_theme("dark-blue")  # Themes: blue (default), dark-blue, green
 
-app = customtkinter.CTk()  # create CTk window like you do with the Tk window
+app = customtkinter.CTk()   # create CTk window like you do with the Tk window
 app.geometry("400x200")
 app.title("Text Spammer!")
 
@@ -35,7 +35,7 @@ entry_spam_text.pack(padx=10, pady=10)
 entry_spam_text_count = customtkinter.CTkEntry(master=app, placeholder_text="Count")
 entry_spam_text_count.pack(padx=10, pady=10)
 
-# Use CTkButton instead of tkinter Button
+# Todo: Validation needed for text fields
 button_spam = customtkinter.CTkButton(master=app, text="Bomb It!", command=lambda: countdown_timer(6))
 button_spam.pack(pady=10, anchor=tkinter.CENTER)
 
